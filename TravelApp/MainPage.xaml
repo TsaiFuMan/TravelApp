@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelApp.MainPage">
+
+    <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto"
+          RowSpacing="10"
+          Margin="20">
+        <Label Text="中部 - 觀光旅遊"
+               Grid.Row="0"
+               Grid.Column="0"
+               Grid.ColumnSpan="1"
+               FontSize="Large"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <Border Grid.Row="1" Grid.Column="0" Padding="5">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <ImageButton Source="miaoli.png"
+                             Aspect="AspectFit"
+                             WidthRequest="310"
+                             HeightRequest="110"
+                             CommandParameter="Miaoli"
+                             Clicked="ImageButton_Clicked"/>
+                <Label Text="苗栗" HorizontalOptions="Start" VerticalOptions="End"/>
+            </StackLayout>
+        </Border>
+
+        <Border Grid.Row="2" Grid.Column="0" Padding="5">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <ImageButton Source="taichung.png"
+                             Aspect="AspectFit"
+                             WidthRequest="310"
+                             HeightRequest="110"
+                             CommandParameter="Taichung"
+                             Clicked="ImageButton_Clicked"/>
+                <Label Text="台中" HorizontalOptions="Start" VerticalOptions="End"/>
+            </StackLayout>
+        </Border>
+
+        <Border Grid.Row="3" Grid.Column="0" Padding="5">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <ImageButton Source="changhua.png"
+                             Aspect="AspectFit"
+                             WidthRequest="310"
+                             HeightRequest="110"
+                             CommandParameter="Changhua"
+                             Clicked="ImageButton_Clicked"/>
+                <Label Text="彰化" HorizontalOptions="Start" VerticalOptions="End"/>
+            </StackLayout>
+        </Border>
+
+        <Border Grid.Row="4" Grid.Column="0" Padding="5">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <ImageButton Source="nantou.png"
+                             Aspect="AspectFit"
+                             WidthRequest="310"
+                             HeightRequest="110"
+                             CommandParameter="Nantou"
+                             Clicked="ImageButton_Clicked"/>
+                <Label Text="南投" HorizontalOptions="Start" VerticalOptions="End"/>
+            </StackLayout>
+        </Border>
+
+        <Border Grid.Row="5" Grid.Column="0" Padding="5">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <ImageButton Source="yunlin.png"
+                             Aspect="AspectFit"
+                             WidthRequest="310"
+                             HeightRequest="110"
+                             CommandParameter="Yunlin"
+                             Clicked="ImageButton_Clicked"/>
+                <Label Text="雲林" HorizontalOptions="Start" VerticalOptions="End"/>
+            </StackLayout>
+        </Border>
+
+    </Grid>
+
+</ContentPage>

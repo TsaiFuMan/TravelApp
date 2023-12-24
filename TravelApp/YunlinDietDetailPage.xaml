@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelApp.YunlinDietDetailPage"
+             Title="YunlinDietDetailPage">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="10">
+            <Label x:Name="lblName" FontSize="24" FontAttributes="Bold" LineBreakMode="WordWrap"/>
+            <Label x:Name="lblAddress" FontSize="18"/>
+            <Label x:Name="lblPhone" FontSize="18"/>
+            <Label x:Name="lblContent" FontSize="18"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

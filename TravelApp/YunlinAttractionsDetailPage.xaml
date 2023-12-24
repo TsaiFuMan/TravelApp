@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelApp.YunlinAttractionsDetailPage"
+             Title="YunlinAttractionsDetailPage">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="10">
+            <Image x:Name="Picture1" Aspect="Fill" HeightRequest="300" />
+            <Label x:Name="lblCName" FontSize="24" FontAttributes="Bold"/>
+            <Label x:Name="lblCToldescribe" FontSize="18"/>
+            <Label x:Name="lblCAdd" FontSize="16" LineBreakMode="WordWrap"/>
+            <Label x:Name="lblTel" FontSize="16"/>
+            <Label x:Name="lblTicketinfo" FontSize="16"/>
+            <Label x:Name="lblOpentime" FontSize="16"/>
+            <Label x:Name="lblRemarks" FontSize="16"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
